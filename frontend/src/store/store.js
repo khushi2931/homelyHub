@@ -3,7 +3,7 @@ import propertySlice from "./Property/property-slice";
 import propertyDetailsSlice from "./PropertyDetails/PropertyDetails-slice.js";
 import userSlice from "./User/user-slice";
 import bookingSlice from "./Booking/booking-slice";
-import accomodationSlice from "./Accomodation/accomodation-slice";
+import accomodationSlice from "./Accomodation/Accomodation-slice";
 import paymentSlice from "./Payment/payment-slice";
 
 const store=configureStore({

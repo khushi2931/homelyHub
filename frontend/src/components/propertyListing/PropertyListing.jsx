@@ -4,7 +4,7 @@ import "../../css/PropertyListing.css";
 import PropertyImg from "./PropertyImg";
 import PaymentForm from "./PaymentForm";
 import PropertyAmenities from "./PropertyAmenities";
-import PropertMapInfo from "./PropertyMapInfo";
+import PropertyMapInfo from "./PropertyMapInfo";
 import { useParams } from "react-router-dom";
 import LoadingSpinner from "../LoadingSpinner";
 
@@ -102,7 +102,7 @@ const PropertyListing = () => {
       <hr></hr>
       <div className="property-map">
         <div className="map-image-exinfo-container row">
-          <PropertMapInfo address={address} />
+          <PropertyMapInfo address={address} />
         </div>
       </div>
     </div>

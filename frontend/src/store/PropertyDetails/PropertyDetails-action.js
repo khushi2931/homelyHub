@@ -1,4 +1,4 @@
-import { propertyDetailsAction } from "./propertyDetails-slice";
+import { propertyDetailsAction } from "./PropertyDetails-slice";
 import { axiosInstance } from "../../utils/axios";
 
 export const getPropertyDetails = (id) => async (dispatch) => {
