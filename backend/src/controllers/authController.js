@@ -6,7 +6,7 @@
 //    forgotPassword / resetPassword - I lost my password
 //    check                          - who is logged in?
 
-import { User } from "../Models/userModel.js";
+import { User } from "../models/userModel.js";
 import jwt from "jsonwebtoken";
 import crypto from "node:crypto";
 import imagekit from "../utils/ImagekitIO.js";
